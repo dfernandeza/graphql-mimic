@@ -1,0 +1,26 @@
+{
+  "name": "graphql-mimic",
+  "version": "0.1.0",
+  "description": "Client side mocking library for GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "graphql",
+    "test"
+  ],
+  "author": "Daniel Fernández <@dfernandeza>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "graphql": "^15.0.0",
+    "graphql-tag": "^2.10.3"
+  }
+}
